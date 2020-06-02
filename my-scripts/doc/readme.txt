@@ -2,9 +2,9 @@
 
 2) add my-scripts dir
 
-cd meta-java
+cd meta-wifi-credentials
 
-echo "# meta-java fork" >> README.md
+echo "# meta-wifi-credentials fork" >> README.md
 
 git init
 
@@ -12,18 +12,18 @@ git add .
 
 git commit -m "first commit"
 
-git remote add origin git@github.com:RobertBerger/meta-java.git
+git remote add origin git@github.com:RobertBerger/meta-wifi-credentials.git
 
 git push -u origin master
 
 3) use my repo
 
-mv meta-java/ meta-java.ori
-git clone git@github.com:RobertBerger/meta-java.git
+mv meta-wifi-credentials/ meta-wifi-credentials.ori
+git clone git@github.com:RobertBerger/meta-wifi-credentials.git
 
 4) add upstream
 
-cd meta-java
+cd meta-wifi-credentials
 
 git remote add official-upstream git://git.yoctoproject.org/meta-java
 
